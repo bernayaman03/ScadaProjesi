@@ -1,0 +1,38 @@
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+
+# Build outputs
+bin/
+obj/
+Debug/
+Release/
+publish/
+
+# OPC UA certificates and private keys
+CertificateStores/
+pki/
+*.pfx
+*.p12
+*.key
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+*.mdf
+*.ldf
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+secrets.json
